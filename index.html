@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Clone | HTML &amp; CSS Practice Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="navbar">
+    <div class="nav-top">
+      <a href="#" class="nav-logo" aria-label="Home">
+        <img src="amazon_logo.png" alt="amazon">
+      </a>
+
+      <a href="#" class="nav-address">
+        <span class="line-1">Deliver to</span>
+        <span class="line-2"><span class="pin">&#9906;</span> India</span>
+      </a>
+
+      <form class="nav-search" onsubmit="return false;">
+        <select aria-label="Search category">
+          <option>All</option>
+          <option>Electronics</option>
+          <option>Fashion</option>
+          <option>Home &amp; Kitchen</option>
+          <option>Beauty</option>
+        </select>
+        <input type="text" placeholder="Search Amazon" aria-label="Search Amazon">
+        <button type="submit" aria-label="Search">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#131921" stroke-width="2.4" stroke-linecap="round">
+            <circle cx="10.5" cy="10.5" r="6.5"></circle>
+            <line x1="15.5" y1="15.5" x2="21" y2="21"></line>
+          </svg>
+        </button>
+      </form>
+
+      <a href="#" class="nav-account">
+        <span class="line-1">Hello, sign in</span>
+        <span class="line-2">Account &amp; Lists</span>
+      </a>
+
+      <a href="#" class="nav-returns">
+        <span class="line-1">Returns</span>
+        <span class="line-2">&amp; Orders</span>
+      </a>
+
+      <a href="#" class="nav-cart">
+        <svg viewBox="0 0 32 32" width="38" height="38" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 5h4l3 14h14l3-10H9"></path>
+          <circle cx="12" cy="25" r="2"></circle>
+          <circle cx="22" cy="25" r="2"></circle>
+        </svg>
+        <span class="cart-text">Cart</span>
+      </a>
+    </div>
+
+    <nav class="nav-bottom">
+      <a href="#" class="all-menu">&#9776; All</a>
+      <a href="#">Today's Deal</a>
+      <a href="#">Customer Service</a>
+      <a href="#">Registry</a>
+      <a href="#">Gift Card</a>
+      <a href="#">Sell</a>
+      <a href="#" class="nav-promo">Shop deals in Electronics</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <img src="hero_image.jpg" alt="Find gifts for dads who have it all">
+      <div class="hero-notice">
+        You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.
+        <a href="#">Click here to go to amazon.in</a>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCT CARDS ===== -->
+    <section class="cards">
+      <article class="card">
+        <h2>Home &amp; Appliances</h2>
+        <img src="box1_image.jpg" alt="Hanging organisers in the wardrobe">
+        <a href="#" class="shop-link">Shop now</a>
+      </article>
+
+      <article class="card">
+        <h2>Health &amp; Personal Care</h2>
+        <img src="box2_image.jpg" alt="Toothbrush, razor and grooming essentials">
+        <a href="#" class="shop-link">Shop now</a>
+      </article>
+
+      <article class="card">
+        <h2>Furniture &amp; Home Decor</h2>
+        <img src="box3_image.jpg" alt="White desk with chair and decor">
+        <a href="#" class="shop-link">Shop now</a>
+      </article>
+
+      <article class="card">
+        <h2>Electronics</h2>
+        <img src="box4_image.jpg" alt="Samsung smartphone with stylus">
+        <a href="#" class="shop-link">Shop now</a>
+      </article>
+
+      <article class="card">
+        <h2>Beauty Picks</h2>
+        <img src="box5_image.jpg" alt="Makeup brushes, lipstick and cosmetics">
+        <a href="#" class="shop-link">Shop now</a>
+      </article>
+
+      <article class="card">
+        <h2>Pet Supplies</h2>
+        <img src="box6_image.jpg" alt="Golden retriever and cat">
+        <a href="#" class="shop-link">Shop now</a>
+      </article>
+
+      <article class="card">
+        <h2>Toys &amp; Games</h2>
+        <img src="box7_image.jpg" alt="Toy airplane, car and colouring pencils">
+        <a href="#" class="shop-link">Shop now</a>
+      </article>
+
+      <article class="card">
+        <h2>Fashion Trends</h2>
+        <img src="box8_image.jpg" alt="Summer fashion outfits and accessories">
+        <a href="#" class="shop-link">Shop now</a>
+      </article>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <a href="#top" class="back-to-top">Back to Top</a>
+
+    <div class="footer-links">
+      <div class="footer-col">
+        <h3>Get to Know Us</h3>
+        <a href="#">Careers</a>
+        <a href="#">Blog</a>
+        <a href="#">About Amazon</a>
+        <a href="#">Investor Relations</a>
+        <a href="#">Amazon Devices</a>
+        <a href="#">Amazon Science</a>
+      </div>
+
+      <div class="footer-col">
+        <h3>Make Money with Us</h3>
+        <a href="#">Sell products on Amazon</a>
+        <a href="#">Sell on Amazon Business</a>
+        <a href="#">Become an Affiliate</a>
+        <a href="#">Advertise Your Products</a>
+        <a href="#">Self-Publish with Us</a>
+      </div>
+
+      <div class="footer-col">
+        <h3>Let Us Help You</h3>
+        <a href="#">Your Account</a>
+        <a href="#">Returns Centre</a>
+        <a href="#">Recalls and Product Safety Alerts</a>
+        <a href="#">100% Purchase Protection</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="footer-col">
+        <h3>Connect with Us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">LinkedIn</a>
+      </div>
+      
+    </div>
+
+          
+
+    <div class="footer-bottom">
+      <img src="amazon_logo.png" alt="amazon">
+      <p>This is a non-commercial HTML &amp; CSS practice project and is not affiliated with Amazon.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
